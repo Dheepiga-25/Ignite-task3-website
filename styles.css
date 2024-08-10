@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#search {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#job-listings {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.job {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#post-job {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+#user-account {
+    display: flex;
+    align-items: center;
+}
+
+#user-account button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#messages {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#message-list {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#message-list p {
+    margin: 0;
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+#message-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#send-message {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#send-message:hover {
+    background-color: #555;
+}

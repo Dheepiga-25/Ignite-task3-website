@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board with Accounts & Messaging</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Board</h1>
+        <input type="text" id="search" placeholder="Search jobs...">
+        <div id="user-account">
+            <button id="login-btn">Login</button>
+            <button id="register-btn">Register</button>
+            <div id="user-info" style="display: none;">
+                <span id="username"></span>
+                <button id="logout-btn">Logout</button>
+            </div>
+        </div>
+    </header>
+    
+    <section id="job-listings">
+        <div class="job">
+            <h2>Frontend Developer</h2>
+            <p>Company: Tech Solutions</p>
+            <p>Location: Chennai, TN</p>
+            <p>Description: Looking for a skilled frontend developer with experience in React.js and CSS.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+        <div class="job">
+            <h2>Ful Stack Developer</h2>
+            <p>Company: Caps Institute</p>
+            <p>Location: Trichy, TN</p>
+            <p>Description: Seeking a full stack developer proficient in frontend and backend.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+        <div class="job">
+            <h2>Java Developer</h2>
+            <p>Company: Great Learning</p>
+            <p>Location: Bangalore, Karnataka</p>
+            <p>Description: Seeking a backend developer proficient in core and advanced java.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+        <div class="job">
+            <h2>Backend Developer</h2>
+            <p>Company: DevWorks</p>
+            <p>Location: Mumbai, Maharashtra</p>
+            <p>Description: Seeking a backend developer proficient in Node.js and MongoDB.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+        <!-- More job listings can go here -->
+    </section>
+
+    <section id="post-job">
+        <h2>Post a Job</h2>
+        <form id="job-form">
+            <input type="text" id="job-title" placeholder="Job Title" required>
+            <input type="text" id="company-name" placeholder="Company Name" required>
+            <input type="text" id="location" placeholder="Location" required>
+            <textarea id="description" placeholder="Job Description" required></textarea>
+            <button type="submit">Post Job</button>
+        </form>
+    </section>
+
+    <section id="messages" style="display: none;">
+        <h2>Messages</h2>
+        <div id="message-list"></div>
+        <textarea id="message-input" placeholder="Type your message..."></textarea>
+        <button id="send-message">Send</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
